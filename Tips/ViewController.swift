@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
+    @IBOutlet weak var twoTotalLabel: UILabel!
+    @IBOutlet weak var threeTotalLabel: UILabel!
+    @IBOutlet weak var fourTotalLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +25,9 @@ class ViewController: UIViewController {
         billField.tintColor = UIColor.blackColor()
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
+        twoTotalLabel.text = "$0.00"
+        threeTotalLabel.text = "$0.00"
+        fourTotalLabel.text = "$0.00"
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,11 +43,18 @@ class ViewController: UIViewController {
         var tip = billAmount * tipPercentage
         var total = billAmount + tip
         
-        tipLabel.text = "$\(tip)"
-        totalLabel.text = "$\(total)"
+        
+//        tipLabel.text = "$\(tip)"
+//        totalLabel.text = "$\(total)"
+//        twoTotalLabel.text = "$\(total/2)"
+//        threeTotalLabel.text = "$\(total/3)"
+//        fourTotalLabel.text = "$\(total/4)"
         
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        twoTotalLabel.text = String(format: "$%.2f", total/2)
+        threeTotalLabel.text = String(format: "$%.2f", total/3)
+        fourTotalLabel.text = String(format: "$%.2f", total/4)
     }
 
     @IBAction func onTap(sender: AnyObject) {
