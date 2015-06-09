@@ -13,3 +13,4 @@ This was a fun project. I got hung up on a few areas including getting the prope
 
 #### Animation of Story
 ![tip-tally](https://cloud.githubusercontent.com/assets/1501406/8051368/55eff2fc-0e30-11e5-962b-5e015ac94e82.gif)
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
