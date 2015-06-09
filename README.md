@@ -1,4 +1,4 @@
-# iOS Tip-Calculator Demo: "Tip Tally"
+# iOS Tip Calculator Demo: "Tip Tally"
 This is an iOS tip calculator app called "Tip Tally". This project was created following the [tip calculator tutorial](https://vimeo.com/102084767) by Tim Lee and the [CodePath](http://codepath.com/) team.
 
 ##### Time Spent: 
