@@ -9,8 +9,9 @@ This is an iOS tip calculator app called "Tip Tally". This project was created f
 - [x] add custom design (including but not limited to custom icon, launch image, background color, animation etc.)
 
 ##### Notes:
-This was a fun project. I got hung up on a few areas including getting the proper launch image to show as well as getting the proper animations to work. I decided to leave out the animation as I ultimately preferred the experience without it. With that said I really look forward to to exploring animations for the next project!
+This was a fun project. I got hung up on a few areas including getting the proper launch image to show as well as getting the proper animations to work. I decided to leave out the animation as I ultimately preferred the experience without it. With that said I really look forward to to exploring animations in the next project!
 
 #### Animation of Story
 ![tip-tally](https://cloud.githubusercontent.com/assets/1501406/8051368/55eff2fc-0e30-11e5-962b-5e015ac94e82.gif)
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+<br>GIF created with [LiceCap](http://www.cockos.com/licecap/).
